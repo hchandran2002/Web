@@ -31,7 +31,7 @@ public class MyFirstListener implements ServletContextListener, ServletContextAt
      * @see ServletContextAttributeListener#attributeAdded(ServletContextAttributeEvent)
      */
     public void attributeAdded(ServletContextAttributeEvent arg0)  { 
-         System.out.println("Added Following Context Attr Value = "+(String)arg0.getValue());
+         System.out.println("Added Following Context Attr Value = ");
     }
 
 	/**
